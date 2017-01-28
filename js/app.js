@@ -59,3 +59,21 @@
 // accum("abcd");    // "A-Bb-Ccc-Dddd"
 // accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 // accum("cwAt");    // "C-Ww-Aaa-Tttt"
+
+// Spin words of 5 letters or more
+// function spinWords(phrase){
+//   let spin = [];
+//   let words = phrase.split(" ");
+//
+//     for (i = 0; i < words.length; i++) {
+//         if (words[i].length >= 5) {
+//           spin.push(words[i].split("").reverse().join(''));
+//         } else {
+//           spin.push(words[i]);
+//         }
+//     }
+//     return(spin.join(' '));
+// }
+//
+// spinWords("Hey fellow warriors");
+// spinWords( "This is another test" );
