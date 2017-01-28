@@ -38,3 +38,24 @@
 //     console.log(sorted);
 //
 // }
+
+// Give results below
+// function accum(s) {
+//   let letters = [];
+//   let list = [];
+//
+//   function titleCase(string) {
+//     return string.charAt(0).toUpperCase() + string.substr(1).toLowerCase();
+//   }
+//
+//   letters = s.split("");
+//
+//   for (i = 0; i < letters.length; i++) {
+//       list.push(titleCase(letters[i].repeat(i + 1)));
+//   }
+//   console.log(list.join("-"));
+// }
+
+// accum("abcd");    // "A-Bb-Ccc-Dddd"
+// accum("RqaEzty"); // "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+// accum("cwAt");    // "C-Ww-Aaa-Tttt"
