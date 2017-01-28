@@ -1,14 +1,40 @@
-function findShort(s){
 
-// Split string into array of strings
-var words = s.split(" ");
-console.log(words);
+// Find the longest word in a sentence
+// function findLong(s){
+//
+//   var words = s.split(" ");
+//
+//   var sorted = words.sort(function (a, b) {
+//       return a.length < b.length;
+//     });
+//
+//     console.log(sorted[0]);
+//
+// }
 
-// for each string in array find length
-  for (i = 0; i < words.length; i++) {
-    return (words[i].length);
-  }
+// Find the length of the shortest word in a sentence
+// function findShort(s){
+//
+//   var words = s.split(" ");
+//
+//   var sorted = words.sort(function (a, b) {
+//       return a.length > b.length;
+//     });
+//
+//     console.log(sorted[0].length);
+//
+// }
 
-}
-
-findShort("Hello everyone");
+// Find the length of the shortest word in a sentence
+// function findShort(s){
+//
+//   var words = s.split(" ");
+//
+//   var sorted = words.sort(function (a, b) {
+//       return a.length - b.length;
+//     });
+//
+//     // console.log(sorted[0].length);
+//     console.log(sorted);
+//
+// }
