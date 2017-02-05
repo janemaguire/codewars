@@ -77,3 +77,20 @@
 //
 // spinWords("Hey fellow warriors");
 // spinWords( "This is another test" );
+
+// Find Maximum and Minimum Values of a List
+//
+// list = [-52, 56, 30, 29, -54, 0, -110];
+//
+// var min = function(list){
+//     return (Math.min(...list));
+// }
+//
+// var max = function(list){
+//     return (Math.max(...list));
+// }
+//
+// var a = min(list);
+// var b = max(list);
+//
+// console.log(a, b);
